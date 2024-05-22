@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Monument";
+  overflow: hidden;
+  background-color: #242424;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+.header {
+  position: absolute;
+  top: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+.header .logo {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #f0f0f0;
+}
+.header .menu {
+  display: flex !important;
+  margin-right: 40px;
+  color: white !important;
+}
+.header .menu .menu-item {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #f0f0f0 !important;
+  font-weight: lighter;
+}
+
+.content {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  height: 100vh;
+  width: 30vw;
+  margin-left: 200px;
+  margin-right: 50px;
+  flex-direction: column;
+}
+.content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Bigilla";
+  color: white;
+}
+h1 div {
+  overflow: hidden;
+  margin-top: -40px;
+}
+.content p {
+  font-size: 15px;
+  width: 80%;
+  font-family: "Poppins";
+  font-weight: 200;
+  color: #f0f0f0;
+}
+.content button {
+  width: 150px;
+  padding: 15px 15px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 15px;
+  border: none;
+  background-color: #0c0c0c;
+  border-radius: 30px;
+  color: white;
+}
+
+.images .box1 {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  background: url(./images/img1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 250px;
+  border: 0.5px solid gray;
+  height: 300px;
+}
+.images .box2 {
+  position: absolute;
+  top: 250px;
+  right: 410px;
+  background: url(./images/img2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 300px;
+  border: 0.5px solid gray;
+  height: 300px;
+}
+.images .box3 {
+  position: absolute;
+  top: 400px;
+  right: 10px;
+  background: url(./images/img3.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 350px;
+  border: 0.5px solid gray;
+  height: 300px;
+}
